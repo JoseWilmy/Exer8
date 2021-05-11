@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:digits="0123456789."
+        android:hint="Insira o seu sálario"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira a quantidade de Quilowatts"
+        android:gravity="center"
+        android:inputType="number"
+        android:digits="0123456789."
+        android:textColor="@color/black"
+        android:layout_marginTop="2mm"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2mm"
+        android:onClick="Click"
+        android:text="Calcular" />
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:layout_marginTop="2mm"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="2mm"/>
+
+
+</LinearLayout>
